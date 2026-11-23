@@ -15,8 +15,6 @@
     "db:generate": "pnpm --filter @zentrixpay/server db:generate",
     "db:migrate": "pnpm --filter @zentrixpay/server db:migrate",
     "generate-wallet": "pnpm --filter @zentrixpay/server generate-wallet",
-    "seed": "pnpm --filter @zentrixpay/server seed",
-    "mock-upstream": "pnpm --filter @zentrixpay/server exec tsx scripts/mock-upstream.ts",
     "contract:build": "stellar contract build --manifest-path contract/Cargo.toml",
     "contract:test": "cargo test --manifest-path contract/Cargo.toml",
     "contract:bindings": "node scripts/generate-bindings.mjs",
